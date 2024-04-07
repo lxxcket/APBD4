@@ -7,16 +7,27 @@ namespace LegacyApp
     {
         private readonly IValidator<User> _validator;
         private readonly ICreditLimitValidator _creditLimitValidator;
+        private readonly IClientRepository _clientRepository;
 
         public UserService()
         {
             _validator = new UserValidator();
             _creditLimitValidator = new DefaultCreditLimitValidator();
+            _clientRepository = new ClientRepository();
         }
+
+        public UserService(UserValidator validator, DefaultCreditLimitValidator creditLimitValidator, IClientRepository clientRepository)
+        {
+            _validator = validator;
+            _creditLimitValidator = creditLimitValidator;
+            _clientRepository = clientRepository;
+        }
+
+        
+
         public bool AddUser(string firstName, string lastName, string email, DateTime dateOfBirth, int clientId)
         {
-            var clientRepository = new ClientRepository();
-            var client = clientRepository.GetById(clientId);
+            var client = _clientRepository.GetById(clientId);
 
             var user = new User
             {

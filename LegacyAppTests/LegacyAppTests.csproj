@@ -26,4 +26,14 @@
       <ProjectReference Include="..\LegacyApp\LegacyApp.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.dll" />
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.pdb" />
+      <Content Include="obj\Debug\net8.0\LegacyAppTests.sourcelink.json" />
+    </ItemGroup>
+
 </Project>

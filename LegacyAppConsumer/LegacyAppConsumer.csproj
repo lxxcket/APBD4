@@ -9,4 +9,8 @@
     <ProjectReference Include="..\LegacyApp\LegacyApp.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0\LegacyAppConsumer.sourcelink.json" />
+  </ItemGroup>
+
 </Project>

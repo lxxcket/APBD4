@@ -35,3 +35,4 @@
 /Users/roman/Downloads/zadanie/LegacyAppConsumer/obj/Debug/net8.0/LegacyAppConsumer.pdb
 /Users/roman/Downloads/zadanie/LegacyAppConsumer/obj/Debug/net8.0/LegacyAppConsumer.genruntimeconfig.cache
 /Users/roman/Downloads/zadanie/LegacyAppConsumer/obj/Debug/net8.0/ref/LegacyAppConsumer.dll
+/Users/roman/Downloads/zadanie/LegacyAppConsumer/obj/Debug/net8.0/LegacyAppConsumer.sourcelink.json

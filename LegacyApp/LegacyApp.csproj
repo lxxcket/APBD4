@@ -4,4 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0\LegacyApp.sourcelink.json" />
+  </ItemGroup>
+
 </Project>

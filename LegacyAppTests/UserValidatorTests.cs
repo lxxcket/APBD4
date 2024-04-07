@@ -1,9 +1,21 @@
+using System.Reflection;
 using LegacyApp;
 
 namespace LegacyAppTests;
 
 public class UserValidatorTests
 {
+    [Fact]
+    public void Email_Not_Containing_At_Sign_Returns_False()
+    {
+        Type type = typeof(UserValidator);
+        var userValidator = Activator.CreateInstance(type);
+        MethodInfo method = type.GetMethod("ValidateEmail", BindingFlags.NonPublic | BindingFlags.Instance);
+
+        object[] parameters = new[] { "testexamole.com" };
+        bool result = (bool)method.Invoke(userValidator, parameters);
+        Assert.False(result);
+    }
     [Fact]
     public void Validate_User_With_Null_First_Name_Returns_False()
     {

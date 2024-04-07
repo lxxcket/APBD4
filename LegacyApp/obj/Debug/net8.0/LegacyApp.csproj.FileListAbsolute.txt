@@ -21,3 +21,4 @@
 /Users/roman/Downloads/zadanie/LegacyApp/obj/Debug/net8.0/refint/LegacyApp.dll
 /Users/roman/Downloads/zadanie/LegacyApp/obj/Debug/net8.0/LegacyApp.pdb
 /Users/roman/Downloads/zadanie/LegacyApp/obj/Debug/net8.0/ref/LegacyApp.dll
+/Users/roman/Downloads/zadanie/LegacyApp/obj/Debug/net8.0/LegacyApp.sourcelink.json
