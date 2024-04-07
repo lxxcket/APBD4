@@ -1,12 +1,10 @@
 using LegacyApp;
+using LegacyApp.CreditLimitValidator;
 
 namespace LegacyAppTests;
+using System;
 
-public class UserServiceTests
-{
-    [Fact]
-    public void Test1()
-    {
+public class UserServiceTests{
+
         
-    }
 }
